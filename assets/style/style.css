@@ -5,3 +5,19 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.background-fade {
+    background-color: rgba(128, 128, 128, 0.452);
+
+}
+
+
+.profile {
+    height: 45vh;
+    width: 20vw;
+    /* box-shadow: 1px 1px 5px gray; */
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 5px black;
+}
