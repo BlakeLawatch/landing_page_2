@@ -18,6 +18,11 @@ body {
     /* box-shadow: 1px 1px 5px gray; */
 }
 
+.languages {
+    height: 18vh;
+    width: 10vw;
+}
+
 .text-shadow {
     text-shadow: 1px 1px 5px black;
 }
