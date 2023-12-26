@@ -26,3 +26,10 @@ body {
 .text-shadow {
     text-shadow: 1px 1px 5px black;
 }
+
+.project-name {
+    background-color: rgba(46, 46, 46, 0.452);
+    max-width: 8vw;
+
+    /* backdrop-filter: blur(px); */
+}
