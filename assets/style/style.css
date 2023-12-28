@@ -33,3 +33,16 @@ body {
 
     /* backdrop-filter: blur(px); */
 }
+
+.secondary {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
