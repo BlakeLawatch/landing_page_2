@@ -8,7 +8,7 @@ body {
 
 .background-fade {
     background-color: rgba(128, 128, 128, 0.452);
-    height: 100svh;
+    height: 100vh;
 }
 
 
@@ -19,7 +19,7 @@ body {
 }
 
 .languages {
-    height: 18vh;
+    height: 15vh;
     width: 10vw;
 }
 
@@ -68,6 +68,20 @@ body {
 .overflow {
     overflow-y: auto;
     height: 100svh;
+}
+
+.language-img {
+    height: 25vh;
+    width: 20vw;
+}
+
+.mdi-greater-than {
+    font-size: 10rem;
+}
+
+
+.mdi-less-than {
+    font-size: 10rem;
 }
 
 /* ::-webkit-scrollbar-thumb {
