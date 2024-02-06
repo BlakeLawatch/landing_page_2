@@ -13,9 +13,16 @@ body {
 
 
 .profile {
-    height: 45vh;
-    width: 20vw;
-    /* box-shadow: 1px 1px 5px gray; */
+    height: 30vh;
+    width: 15vw;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 767px) {
+    .profile {
+        height: 30vh;
+        width: 50vw;
+    }
 }
 
 .languages {
