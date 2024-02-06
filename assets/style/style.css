@@ -102,15 +102,36 @@ body {
     width: 20vw;
 }
 
-.mdi-greater-than {
+@media(max-width: 767px) {
+    .language-img {
+        height: 20vh;
+        width: 40vw;
+    }
+}
+
+.mdi-arrow-left-thick {
     font-size: 7rem;
-    margin-right: 3rem;
+    margin-left: 5rem;
+}
+
+@media(max-width: 767px) {
+    .mdi-arrow-left-thick {
+        font-size: 3rem;
+        margin-left: 0;
+    }
 }
 
 
-.mdi-less-than {
+.mdi-arrow-right-thick {
     font-size: 7rem;
-    margin-left: 3rem;
+    margin-right: 5rem;
+}
+
+@media(max-width: 767px) {
+    .mdi-arrow-right-thick {
+        font-size: 3rem;
+        margin-right: 0;
+    }
 }
 
 /* ::-webkit-scrollbar-thumb {
