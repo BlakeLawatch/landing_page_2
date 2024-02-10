@@ -85,7 +85,6 @@ body {
 }
 
 .project-text:hover+.project-image {
-    /* background-image: url(assets/img/logo.png); */
     visibility: visible;
     opacity: 1;
     transition-duration: 1s;
