@@ -37,6 +37,7 @@ body {
 .project-name {
     background-color: rgba(46, 46, 46, 0.452);
     max-width: 10vw;
+
 }
 
 @media(max-width: 767px) {
@@ -75,6 +76,7 @@ body {
     visibility: hidden;
     opacity: 0;
     box-shadow: 0px 2px 2px white;
+    transition: ease-in-out .5s;
 }
 
 @media(max-width: 767px) {
@@ -131,6 +133,15 @@ body {
         font-size: 3rem;
         margin-right: 0;
     }
+}
+
+.story-color {
+    color: #ffcb00;
+}
+
+.story-border {
+    border-top: thin solid #ffcb00;
+    padding-top: 1.5rem;
 }
 
 /* ::-webkit-scrollbar-thumb {

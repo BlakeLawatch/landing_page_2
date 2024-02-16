@@ -1,4 +1,5 @@
 import { router } from './router-config.js';
+import AOS from 'aos'
 
 class App {
 
@@ -10,3 +11,4 @@ class App {
 const app = new App()
 // @ts-ignore
 window.app = app
+
