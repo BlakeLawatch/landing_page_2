@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="https://bcw.blob.core.windows.net/public/img/9977764104160066">
-  <link rel="stylesheet" href="../../assets/vendor/aos/dist/aos.css">
   <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="assets/style/main.css">
   <link rel="stylesheet" href="assets/style/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>landing_page</title>
 </head>
 
@@ -46,7 +46,7 @@
           <!-- SECTION LANGUAGES -->
 
           <section class="row">
-            <h1 class="text-light text-shadow text-center my-3">Languages</h1>
+            <h1 class="languages-header text-light text-shadow text-center my-3">Languages</h1>
             <div id="carouselExampleIndicators" class="carousel slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -147,17 +147,15 @@
               </div>
             </div>
             <div class="col-12 col-md-6">
-              <div class="text-center" data-aos="fade-left">
-                <h4 class="text-light text-shadow project-name rounded-pill p-1" data-aos="fade-left"
-                  data-aos-duration="5000">-Inspire-</h4>
+              <div class="text-center">
+                <h4 class="text-light text-shadow project-name rounded-pill p-1">-Inspire-</h4>
                 <p class="px-5 py-2 project-text text-white ms-1">This project was more a test of CSS while also
                   talking to multiple API's. The
                   goal was a new age screen saver where a quote was displayed, along with an accurate local
                   temperature and time, and the background image changed on every refresh. This was built using a
                   Node
                   back end and MVC front end</p>
-                <img class="project-image img-fluid my-3 rounded" src="assets/img/Inspire.png" alt=""
-                  data-aos="fade-up">
+                <img class="project-image img-fluid my-3 rounded" src="assets/img/Inspire.png" alt="">
               </div>
             </div>
           </section>
@@ -165,9 +163,11 @@
           <!-- SECTION MY STORY -->
 
           <section class="row">
-            <div class="col-12" data-aos="fade-up" data-aos-duration="100">
-              <h1 class="text-light text-shadow text-center my-5">My Story</h1>
-              <p class="text-light text-shadow"><b class="story-color">PROFESSIONAL - </b> I've grown up in my
+            <div class="col-12">
+              <h1 class="text-light text-shadow text-center my-5">My Story
+              </h1>
+              <p class="text-light text-shadow hidden show"><b class="story-color">PROFESSIONAL - </b> I've grown up in
+                my
                 family
                 restaurant
                 where I learned how to
@@ -205,8 +205,20 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.10/dist/sweetalert2.all.min.js"
     integrity="sha256-hw7v8jZF/rFEdx1ZHepT4D73AFTHLu/P9kEyrNesRyc=" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- <script>
+    AOS.init();
+  </script> -->
+  <script>
 
-  <script src="app/App.js" type="module"></script>
+    // initialization of aos
+    AOS.init({
+      once: true,
+      duration: 1000
+    });
+
+  </script>
 
 
 </body>
