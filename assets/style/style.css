@@ -155,6 +155,24 @@ body {
     padding-top: 1.5rem;
 }
 
+.fade-in {
+    animation: fade-in linear;
+    animation-duration: 2s;
+}
+
+
+@keyframes fade-in {
+    from {
+        scale: .8;
+        opacity: 0;
+    }
+
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
 /* ::-webkit-scrollbar-thumb {
     background-color: #2ca58d;
     border-radius: 10px;
