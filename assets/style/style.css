@@ -16,6 +16,7 @@ body {
     height: 30vh;
     width: 15vw;
     margin-bottom: 20px;
+    filter: drop-shadow(10px 7px 10px black)
 }
 
 @media(max-width: 767px) {
@@ -147,31 +148,34 @@ body {
 }
 
 .story-color {
-    color: #ffcb00;
+    color: #ffa600a8;
 }
 
 .story-border {
-    border-top: thin solid #ffcb00;
+    border-top: thin solid #ffa600a8;
     padding-top: 1.5rem;
 }
 
-.fade-in {
-    animation: fade-in linear;
-    animation-duration: 2s;
-}
+/* @media(prefers-reduced-motion: no-preference) { */
+/* .fade-in {
+    scale: .8;
+    opacity: 0;
+    animation: fade-in linear forwards;
+    animation-timeline: view(50%);
+    animation-iteration-count: 1;
+
+} */
 
 
-@keyframes fade-in {
-    from {
-        scale: .8;
-        opacity: 0;
-    }
+/* @keyframes fade-in {
 
     to {
         scale: 1;
         opacity: 1;
     }
-}
+} */
+
+/* } */
 
 /* ::-webkit-scrollbar-thumb {
     background-color: #2ca58d;
