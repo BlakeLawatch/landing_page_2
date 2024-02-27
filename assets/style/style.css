@@ -36,6 +36,11 @@ body {
     -webkit-text-fill-color: transparent;
 } */
 
+.header {
+    border-right: dashed #ffa600a8;
+    padding-right: 2rem;
+}
+
 .languages {
     height: 15vh;
     width: 10vw;
