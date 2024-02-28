@@ -1,12 +1,16 @@
-import Aos from 'aos';
-import { router } from './router-config.js';
+// import Aos from 'aos';
+// import { router } from './router-config.js';
 
 
-class App {
+// class App {
 
-  router = router
+//   router = router
 
 
+// }
+function goToApplications() {
+  window.scrollTo(0, 5000)
+  console.log('hello')
 }
 // function aos_init() {
 //   Aos.init({
@@ -14,14 +18,15 @@ class App {
 //     once: true
 //   });
 // }
-// aos_init();
-// $(window).on('load', function() {
-// });
+// // aos_init();
+// // $(window).on('load', function() {
+// // });
 
 
-const app = new App()
-// @ts-ignore
-window.app = app
+
+// const app = new App()
+// // @ts-ignore
+// window.app = app
 
 
 

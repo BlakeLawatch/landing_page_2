@@ -46,20 +46,21 @@
           <!-- SECTION HEADER -->
 
           <section class="row">
-            <div class="col-12 d-flex justify-content-around">
+            <ul class="d-flex justify-content-around">
               <div class="header">
-                <h2 class="text-light text-shadow">Languages</h2>
+                <li class="btn options text-light">Languages</li>
 
               </div>
-              <div class="header">
-                <h2 class="text-light text-shadow">Applications</h2>
+              <div onclick="goToApplications()" class="header">
+                <li class="btn options text-light">Applications</li>
 
               </div>
               <div>
-                <h2 class="text-light text-shadow">My Story</h2>
+                <li class="btn options text-light">My Story</li>
 
               </div>
-            </div>
+
+            </ul>
           </section>
 
           <!-- SECTION LANGUAGES -->
@@ -185,7 +186,7 @@
 
           <section class="row">
             <div class="col-12">
-              <h1 class="text-light text-shadow text-center my-5">My Story
+              <h1 class="text-light text-shadow text-center my-5" data-aos="fade-up">My Story
               </h1>
               <p class=" text-light text-shadow hidden show"><b class="story-color">PROFESSIONAL - </b> I've grown up
                 in
@@ -230,12 +231,13 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.10/dist/sweetalert2.all.min.js"
     integrity="sha256-hw7v8jZF/rFEdx1ZHepT4D73AFTHLu/P9kEyrNesRyc=" crossorigin="anonymous"></script>
-  <script src="app.js"></script>
-  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
-  <!-- <script>
+  <script src="app/App.js"></script>
+
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
     AOS.init();
   </script> -->
-  <script>
+  <!-- <script>
 
     // initialization of aos
     AOS.init({
@@ -243,7 +245,7 @@
       duration: 1000
     });
 
-  </script>
+  </script> -->
 
 
 </body>

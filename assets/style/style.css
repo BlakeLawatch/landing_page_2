@@ -36,9 +36,21 @@ body {
     -webkit-text-fill-color: transparent;
 } */
 
-.header {
+/* .header {
     border-right: dashed #ffa600a8;
-    padding-right: 2rem;
+    padding-right: 1rem;
+} */
+
+.options {
+    font-size: 2rem;
+    text-shadow: 1px 1px 5px black;
+}
+
+.options:hover {
+    font-size: 2.05rem;
+    text-shadow: 1px 1px 7px #ffa600a8;
+    transition: .3s ease-in-out;
+    border: none;
 }
 
 .languages {
