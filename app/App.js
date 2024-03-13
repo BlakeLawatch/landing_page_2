@@ -9,15 +9,17 @@
 
 // }
 function goToApplications() {
-  window.scrollTo(0, 5000)
-  console.log('hello')
+  window.scrollTo(0, 100)
+
 }
-// function aos_init() {
-//   Aos.init({
-//     duration: 1000,
-//     once: true
-//   });
-// }
+
+
+function aos_init() {
+  Aos.init({
+    duration: 1000,
+    once: true
+  });
+}
 // // aos_init();
 // // $(window).on('load', function() {
 // // });
