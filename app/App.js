@@ -1,6 +1,8 @@
 // import Aos from 'aos';
 // import { router } from './router-config.js';
 
+const { AOS } = require("./aos.js");
+
 
 // class App {
 
@@ -13,13 +15,22 @@ function goToApplications() {
 
 }
 
-
 function aos_init() {
-  Aos.init({
+  AOS.init({
     duration: 1000,
     once: true
   });
 }
+$(window).on('load', function () {
+  aos_init();
+});
+
+// function aos_init() {
+//   Aos.init({
+//     duration: 1000,
+//     once: true
+//   });
+// }
 // // aos_init();
 // // $(window).on('load', function() {
 // // });
