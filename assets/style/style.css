@@ -8,14 +8,14 @@ body {
 
 .background-fade {
     background-color: #80808073;
-    height: 100svh;
+    height: 100vh;
 }
 
 
 .profile {
     height: 30vh;
     width: 15vw;
-    margin-bottom: 20px;
+    margin-bottom: 5vh;
     filter: drop-shadow(10px 7px 10px black)
 }
 
@@ -124,8 +124,8 @@ body {
 }
 
 .overflow {
-    overflow-y: auto;
-    height: 100svh;
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 .language-img {
