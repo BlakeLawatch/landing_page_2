@@ -10,8 +10,14 @@ const { AOS } = require("./aos.js");
 
 
 // }
+// function goToApplications() {
+//   window.scrollTo(0, 400)
+
+// }
+
 function goToApplications() {
-  window.scrollTo(0, 100)
+  let elem = document.getElementById("applications");
+  elem?.scrollIntoView()
 
 }
 
