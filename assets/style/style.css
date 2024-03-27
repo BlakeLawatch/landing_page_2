@@ -54,6 +54,23 @@ body {
     border: none;
 }
 
+@media(max-width: 767px) {
+    .options {
+        visibility: hidden;
+    }
+}
+
+.mobile-menu {
+    visibility: hidden;
+}
+
+@media(max-width: 767px) {
+    .mobile-menu {
+        /* visibility: visible; */
+        visibility: hidden;
+    }
+}
+
 .languages {
     height: 15vh;
     width: 10vw;
