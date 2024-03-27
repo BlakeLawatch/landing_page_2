@@ -48,7 +48,7 @@
 
           <section class="row">
             <ul class="d-flex justify-content-around">
-              <div class="header">
+              <div onclick="goToLanguages()" class="header">
                 <li class="btn options text-light">Languages</li>
 
               </div>
@@ -56,7 +56,7 @@
                 <li class="btn options text-light">Applications</li>
 
               </div>
-              <div>
+              <div onclick="goToMyStory()">
                 <li class="btn options text-light">My Story</li>
 
               </div>
@@ -67,7 +67,7 @@
           <!-- SECTION LANGUAGES -->
 
           <section class="row">
-            <h1 class="languages-header text-light text-shadow text-center my-3">Languages</h1>
+            <h1 id="languages" class="languages-header text-light text-shadow text-center my-3">Languages</h1>
             <div id="carouselExampleIndicators" class="carousel slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -188,7 +188,7 @@
 
           <section class="row">
             <div class="col-12">
-              <h1 class="text-light text-shadow text-center my-5">My Story
+              <h1 id="myStory" class="text-light text-shadow text-center my-5">My Story
               </h1>
               <p class=" text-light text-shadow hidden show"><b class="story-color">PROFESSIONAL - </b> I've grown up
                 in

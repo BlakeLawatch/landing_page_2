@@ -3,21 +3,19 @@
 
 const { AOS } = require("./aos.js");
 
-
-// class App {
-
-//   router = router
-
-
-// }
-// function goToApplications() {
-//   window.scrollTo(0, 400)
-
-// }
+function goToLanguages() {
+  let elem = document.getElementById("languages");
+  elem?.scrollIntoView({ behavior: "smooth" })
+}
 
 function goToApplications() {
   let elem = document.getElementById("applications");
-  elem?.scrollIntoView()
+  elem?.scrollIntoView({ behavior: "smooth" })
+}
+
+function goToMyStory() {
+  let elem = document.getElementById("myStory");
+  elem?.scrollIntoView({ behavior: "smooth" });
 
 }
 
