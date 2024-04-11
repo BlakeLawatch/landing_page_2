@@ -8,9 +8,19 @@ body {
 
 .background-fade {
     background-color: #80808073;
-    height: 100vh;
+    height: 100svh;
 }
 
+.font {
+    font-size: medium;
+}
+
+@media(max-width: 676px) {
+    .font {
+        font-size: medium;
+        font-weight: lighter;
+    }
+}
 
 .profile {
     height: 30vh;
