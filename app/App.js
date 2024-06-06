@@ -1,7 +1,8 @@
 // import Aos from 'aos';
 // import { router } from './router-config.js';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
-const { AOS } = require("./aos.js");
 
 function goToLanguages() {
   let elem = document.getElementById("languages");
@@ -18,26 +19,9 @@ function goToMyStory() {
   elem?.scrollIntoView({ behavior: "smooth" });
 
 }
-
-function aos_init() {
-  AOS.init({
-    duration: 1000,
-    once: true
-  });
-}
-$(window).on('load', function () {
-  aos_init();
-});
-
-// function aos_init() {
-//   Aos.init({
-//     duration: 1000,
-//     once: true
-//   });
-// }
-// // aos_init();
-// // $(window).on('load', function() {
-// // });
+AOS.init({
+  duration: 800,
+})
 
 
 
