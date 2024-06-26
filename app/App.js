@@ -1,6 +1,5 @@
-// import Aos from 'aos';
 // import { router } from './router-config.js';
-import AOS from 'aos'
+// import AOS from 'aos'
 // import 'aos/dist/aos.css'
 
 
@@ -20,10 +19,10 @@ function goToMyStory() {
 
 }
 
-AOS.init({
-  duration: 800,
-  once: true
-})
+// AOS.init({
+//   duration: 800,
+//   once: true
+// })
 
 
 
