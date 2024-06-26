@@ -1,7 +1,7 @@
 // import Aos from 'aos';
 // import { router } from './router-config.js';
 import AOS from 'aos'
-import 'aos/dist/aos.css'
+// import 'aos/dist/aos.css'
 
 
 function goToLanguages() {
@@ -19,8 +19,10 @@ function goToMyStory() {
   elem?.scrollIntoView({ behavior: "smooth" });
 
 }
+
 AOS.init({
   duration: 800,
+  once: true
 })
 
 
