@@ -36,6 +36,10 @@ body {
     }
 }
 
+.logos {
+    color: #b87d10;
+}
+
 /* TODO play around with this linear gradient */
 
 /* .languages-header {
