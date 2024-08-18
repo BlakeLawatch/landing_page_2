@@ -26,7 +26,7 @@ body {
     height: 30vh;
     width: 15vw;
     margin-bottom: 5vh;
-    filter: drop-shadow(10px 7px 10px #b87d10b2)
+    filter: drop-shadow(10px 7px 10px #364b66)
 }
 
 @media(max-width: 767px) {
@@ -37,7 +37,8 @@ body {
 }
 
 .logos {
-    color: #b87d10;
+    color: #75879f;
+    /* color: #b87d10; */
 }
 
 /* TODO play around with this linear gradient */
@@ -62,8 +63,8 @@ body {
 }
 
 .options:hover {
-    font-size: 2.05rem;
-    text-shadow: 1px 1px 7px #ffa600a8;
+    /* font-size: 2.05rem; */
+    text-shadow: 1px 1px 7px #364b66;
     transition: .3s ease-in-out;
     border: none;
 }
@@ -150,7 +151,7 @@ body {
 .project-text:hover+.project-image {
     visibility: visible;
     opacity: 1;
-    transition-duration: 1s;
+    transition-duration: .5s;
     box-shadow: 2px 6px 6px black;
 }
 
