@@ -207,14 +207,14 @@ body {
     scale: .5;
     opacity: .1;
     animation: fade-in linear forwards;
-    animation-timeline: view(5vh);
+    animation-timeline: view(25vh);
 }
 
 
 @keyframes fade-in {
 
     to {
-        scale: 1.2;
+        scale: 1.1;
         opacity: 2;
 
     }
