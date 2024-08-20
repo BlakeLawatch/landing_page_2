@@ -8,7 +8,7 @@ body {
 
 .background-fade {
     background-color: #80808073;
-    height: 100svh;
+    max-height: 100svh;
 }
 
 .font {
